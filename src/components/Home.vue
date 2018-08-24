@@ -43,7 +43,7 @@
                 h1.li-header-text(style="font-family: Quattrocento;text-shadow: 1px 1px 3px #222222;") Internship Reflection
                 hr.smaller
                 h3.column-text.light
-                    span On further reflection on my internship, I believe it has been really good i both work experience and social experience. I have been able to learn certain tools which can be helpful for me in the work world, i.e development of an effective bot. Also I've been able to build a friendship with ESL, such that they are offering to have me again next year.
+                    span On further reflection on my internship, I believe it has been really good i both work experience and social experience. I have been able to learn certain tools which can be helpful for me in the work world, i.e development of an effective bot. Also I've been able to build a friendship with ESL, such that they are offering to have me again next year.l/
 </template>
 
 <script>
