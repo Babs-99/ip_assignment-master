@@ -1,0 +1,85 @@
+// Red Damask and Crail
+$VertexOrange: #d96a4c
+$VertexOrangeDark: #b95a40
+
+// Scooter and Eastern Blue
+$VertexBlue: #2db8d5
+$VertexDarkBlue: #208ca2
+
+// Flush Mahoganay and Stilleto
+$VertexRed: #cf3e4d
+$VertexDarkRed: #a02e3a
+
+.orange-color
+    color: $VertexOrange
+
+.blue-color
+    color: $VertexBlue
+
+.red-color
+    color: $VertexRed
+
+.orange-icon
+  border: 1px solid $VertexOrange ;
+  background: $VertexOrange;
+
+.orange-icon:hover
+  background: $VertexOrangeDark;
+
+.blue-icon
+  border: 1px solid $VertexBlue ;
+  background: $VertexBlue;
+
+.blue-icon:hover
+  background: $VertexDarkBlue;
+
+.red-icon
+  border: 1px solid $VertexRed ;
+  background: $VertexRed;
+
+.red-icon:hover
+  background: $VertexDarkRed;
+
+.transparent
+  color: #ffffff
+
+.vertex-gradient
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2db8d5+9,481300+10,481300+10,582112+11,d96a4c+12,d96a4c+20,4b1318+21,4b1318+23,cf3e4d+23 */
+  background: rgb(45,184,213); /* Old browsers */
+  background: -moz-linear-gradient(45deg, rgb(45,184,213) 9%, rgb(72,19,0) 10%, rgb(72,19,0) 10%, rgb(88,33,18) 11%, rgb(217,106,76) 12%, rgb(217,106,76) 20%, rgb(75,19,24) 21%, rgb(75,19,24) 23%, rgb(207,62,77) 23%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, rgb(45,184,213) 9%,rgb(72,19,0) 10%,rgb(72,19,0) 10%,rgb(88,33,18) 11%,rgb(217,106,76) 12%,rgb(217,106,76) 20%,rgb(75,19,24) 21%,rgb(75,19,24) 23%,rgb(207,62,77) 23%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, rgb(45,184,213) 9%,rgb(72,19,0) 10%,rgb(72,19,0) 10%,rgb(88,33,18) 11%,rgb(217,106,76) 12%,rgb(217,106,76) 20%,rgb(75,19,24) 21%,rgb(75,19,24) 23%,rgb(207,62,77) 23%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2db8d5', endColorstr='#cf3e4d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+hr.smaller
+  width: 25%
+  margin: auto
+
+.parallax
+    /* Set a specific height */
+    overflow: hidden
+    max-height: 350px
+    width: 100%
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    p
+      text-shadow: 0px 2px 10px #525252
+      padding: 5%
+      color: white
+      font-family: "Montserrat", sans-serif;
+      font-size: 60px;
+      text-align: left
+      line-height: 1em
+      letter-spacing: 0.0121951em;
+      font-weight: bold
+      max-width: 100%
+      display: inline-block
+      position: relative
+      @media (max-width: 330px)
+          font-size: 35px
+      @media (max-width: 768px) and (min-width:331px)
+          font-size: 45px
